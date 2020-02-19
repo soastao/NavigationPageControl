@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/14 11:06:49.000.523,=rtl.dcp</Transaction>
+    <Transaction>2020/02/14 11:07:22.000.273,\\Mac\Home\Documents\Embarcadero\Studio\Projects\stPak.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2020/02/14 11:07:42.000.408,D:\Delphi\stFMX\source\stPak.dproj=\\Mac\Home\Documents\Embarcadero\Studio\Projects\stPak.dproj</Transaction>
+    <Transaction>2020/02/14 11:08:22.000.730,=D:\Delphi\stFMX\source\stTabControl.pas</Transaction>
+    <Transaction>2020/02/14 11:08:46.000.761,=fmx.dcp</Transaction>
+    <Transaction>2020/02/14 11:17:32.000.470,=D:\Delphi\stFMX\source\stTypes.pas</Transaction>
+    <Transaction>2020/02/14 11:19:00.000.630,D:\Delphi\stFMX\source\stTypes.pas=</Transaction>
+    <Transaction>2020/02/14 11:20:44.000.718,=D:\Delphi\stFMX\source\stTypes.pas</Transaction>
+    <Transaction>2020/02/14 11:31:38.000.927,D:\Delphi\stFMX\source\stTypes.pas=</Transaction>
+    <Transaction>2020/02/14 11:31:49.000.124,=D:\Delphi\stFMX\source\stComponentEditors.pas</Transaction>
+    <Transaction>2020/02/14 11:34:29.000.762,=DesignIDE.dcp</Transaction>
+    <Transaction>2020/02/14 11:37:16.000.636,=D:\Delphi\stFMX\source\stTypes.pas</Transaction>
+    <Transaction>2020/02/14 15:40:05.000.770,=D:\Delphi\stFMX\source\stCommon.pas</Transaction>
+    <Transaction>2020/02/15 18:39:37.000.782,D:\Delphi\stFMX\source\stCommon.pas=</Transaction>
+    <Transaction>2020/02/16 10:33:07.000.803,=D:\Delphi\stFMX\source\NavigationPageControl.pas</Transaction>
+    <Transaction>2020/02/16 11:05:59.000.134,D:\Delphi\stFMX\source\stComponentEditors.pas=</Transaction>
+    <Transaction>2020/02/16 14:06:18.000.803,=D:\Delphi\stFMX\source\stComponentEditors.pas</Transaction>
+  </Transactions>
+</BorlandProject>

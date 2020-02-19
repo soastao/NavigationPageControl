@@ -1,0 +1,376 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Demo'
+  ClientHeight = 665
+  ClientWidth = 355
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object NavPC: TNavigationPageControl
+    Align = Client
+    Appearence.TabBarHeight = 50
+    Appearence.TabBarDividingLineColor = claBlack
+    Appearence.TabbarPosition = tbBottom
+    Appearence.TabbarBottomMarginHeight = 3
+    Appearence.TabbarTopMarginHeight = 4
+    Appearence.Badge.BadgeColor = claRed
+    Appearence.Badge.ShowBadge = False
+    Appearence.Badge.ShowBadgeValue = True
+    Appearence.Badge.BadgeCircleRadius = 16
+    Appearence.SelectedTabItem.SelectedIconSize = 28
+    Appearence.NormalTabItem.NormalFont.Size = 11.000000000000000000
+    Appearence.NormalTabItem.NormalIconSize = 28
+    Appearence.SheetBackgroundColor = claWhite
+    SelectedTabIndex = 0
+    Size.Width = 355.000000000000000000
+    Size.Height = 665.000000000000000000
+    Size.PlatformDefault = False
+    object NavTabItem1: TNavTabItem
+      Text = #39029#38754'0'
+      BadgeValue = 6
+      PresetIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        0106494441546843ED95C109C2401045A3E04DAF36A01D588316A16558875D68
+        13D6A01DD880676F1ED43FB20B1256933593CCAEFE078F48D81DFE80E1178410
+        F2B3F4E0C629BFB3620077F0EEDCBA775930827BE8C37BE5DD1026CD181E6139
+        BCF700E54C924CE1098682BF2A6726302966F00C438143CA59B993040B7881A1
+        A09F943B7368CA0A5E6128601DE5EE129AB08637180A16A3CC90599DE10B2A14
+        A6899D145EB9A0B46DB5F0DE1594B6AD145E554169AB5A78750B4A5B95C28B2D
+        286D1B15DEB705A5ED5785D7B4A0B48D2A3CAD82D236587831C52143BAA456B6
+        BE7B660B17B0A68D6FA06AA6D69C27FC0B59C305ACE102D670016BB88035D92F
+        400821E49F298A07C41069D2A5CF23180000000049454E44AE426082}
+      PresetItemIconName = ic_home
+      UsePresetIcon = True
+      object GroupBox1: TGroupBox
+        Align = Top
+        Position.Y = 33.000000000000000000
+        Size.Width = 355.000000000000000000
+        Size.Height = 103.000000000000000000
+        Size.PlatformDefault = False
+        Text = #35282#26631#35774#32622
+        TabOrder = 0
+        object cbox1: TCheckBox
+          Position.X = 24.000000000000000000
+          Position.Y = 24.000000000000000000
+          TabOrder = 1
+          Text = #26174#31034#35282#26631
+          OnChange = cbox1Change
+        end
+        object Label1: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = #35282#26631#39068#33394
+          TabOrder = 3
+        end
+        object ColorComboBox2: TColorComboBox
+          DropDownKind = Custom
+          Color = claNull
+          DisableFocusEffect = False
+          ItemIndex = 147
+          Position.X = 144.000000000000000000
+          Position.Y = 56.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          OnChange = ColorComboBox2Change
+        end
+        object cbox2: TCheckBox
+          IsChecked = True
+          Position.X = 192.000000000000000000
+          Position.Y = 24.000000000000000000
+          TabOrder = 0
+          Text = #26174#31034#35282#26631#25968#23383
+          OnChange = cbox2Change
+        end
+        object Label2: TLabel
+          Align = Bottom
+          Position.Y = 86.000000000000000000
+          Size.Width = 355.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          Text = '   '#35282#26631#22278#22280#21487#20197#35774#32622#20026#20219#24847#22823#23567', '#19978#38754#31616#21333#28436#31034#20102#19979
+          TabOrder = 4
+        end
+      end
+      object Layout1: TLayout
+        Align = MostTop
+        Size.Width = 355.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label8: TLabel
+          Align = Client
+          AutoSize = True
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 355.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.HorzAlign = Center
+          TextSettings.WordWrap = False
+          Text = 'NavigationPageControl Demo'
+          TabOrder = 1
+        end
+      end
+      object GroupBox2: TGroupBox
+        Align = Top
+        Position.Y = 136.000000000000000000
+        Size.Width = 355.000000000000000000
+        Size.Height = 225.000000000000000000
+        Size.PlatformDefault = False
+        Text = #39068#33394#35774#32622
+        TabOrder = 3
+        object Label3: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = #38750#36873#20013#39068#33394
+          TabOrder = 9
+        end
+        object Label4: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = #36873#20013#39068#33394
+          TabOrder = 3
+        end
+        object ColorComboBox1: TColorComboBox
+          DropDownKind = Custom
+          Color = claNull
+          DisableFocusEffect = False
+          ItemIndex = 147
+          Position.X = 144.000000000000000000
+          Position.Y = 24.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          OnChange = ColorComboBox1Change
+        end
+        object ColorComboBox3: TColorComboBox
+          DropDownKind = Custom
+          Color = claNull
+          DisableFocusEffect = False
+          ItemIndex = 147
+          Position.X = 144.000000000000000000
+          Position.Y = 64.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          OnChange = ColorComboBox3Change
+        end
+        object Label5: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 112.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'TabBar'#32972#26223#33394
+          TabOrder = 2
+        end
+        object ColorComboBox4: TColorComboBox
+          DropDownKind = Custom
+          Color = claNull
+          DisableFocusEffect = False
+          ItemIndex = 147
+          Position.X = 144.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          OnChange = ColorComboBox4Change
+        end
+        object Label6: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 152.000000000000000000
+          Size.Width = 78.000000000000000000
+          Size.Height = 17.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'Sheet'#39029#32972#26223#33394
+          TabOrder = 1
+        end
+        object ColorComboBox5: TColorComboBox
+          DropDownKind = Custom
+          Color = claNull
+          DisableFocusEffect = False
+          ItemIndex = 147
+          Position.X = 144.000000000000000000
+          Position.Y = 144.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          OnChange = ColorComboBox5Change
+        end
+        object Label7: TLabel
+          AutoSize = True
+          Position.X = 24.000000000000000000
+          Position.Y = 192.000000000000000000
+          Size.Width = 60.000000000000000000
+          Size.Height = 16.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = #20998#21106#32447#39068#33394
+          TabOrder = 0
+        end
+        object ColorComboBox6: TColorComboBox
+          DropDownKind = Custom
+          Color = claNull
+          DisableFocusEffect = False
+          ItemIndex = 147
+          Position.X = 144.000000000000000000
+          Position.Y = 184.000000000000000000
+          Size.Width = 177.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          OnChange = ColorComboBox6Change
+        end
+      end
+      object GroupBox3: TGroupBox
+        Align = Top
+        Position.Y = 361.000000000000000000
+        Size.Width = 355.000000000000000000
+        Size.Height = 64.000000000000000000
+        Size.PlatformDefault = False
+        Text = #22270#26631#21487#36873#20869#32622#20063#21487#20197#20351#29992#33258#23450#20041#22806#37096#22270#26631
+        TabOrder = 4
+        object Button1: TButton
+          Position.X = 24.000000000000000000
+          Position.Y = 32.000000000000000000
+          Size.Width = 297.000000000000000000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #25442#19968#25209#20869#32622#22270#26631
+          OnClick = Button1Click
+        end
+      end
+      object Memo1: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Lines.Strings = (
+          #20889'demo'#22826#40635#28902', '#31616#21333#35828#35828#20854#20182#21151#33021#21543
+          '1.TabBar'#21306#22495#39640#24230#21487#20219#24847#35843#25972
+          '2.TabBar'#21306#22495#19978#37096#30041#31354#21487#35843#25972
+          '3.TabBar'#21306#22495#19979#37096#30041#31354#21487#35843#25972
+          '4.'#36873#20013#21644#38750#36873#20013#22270#26631#22823#23567#21487#35843#25972
+          '5.'#36873#20013#21644#38750#36873#20013#25991#23383#22823#23567#21487#35843#25972
+          '6.TabBar'#21487#36873#25321#22312#24213#37096#25110#22312#39030#37096)
+        Align = Client
+        Size.Width = 355.000000000000000000
+        Size.Height = 190.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Viewport.Width = 351.000000000000000000
+        Viewport.Height = 186.000000000000000000
+      end
+    end
+    object NavTabItem2: TNavTabItem
+      Text = #39029#38754'1'
+      BadgeValue = 5
+      PresetIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        010D494441546843ED995B0AC2301045AB8B51DCA50B1214FC1597A4F8FAF375
+        2FC49F126BDAC9CCA8CC81C38088C9419B0A6D822028620A57F0081F42E7D094
+        09DCC3DC66866A1AB180B94D48358BD8C1DC06FACA0DE75E53E70ADB0B0F91B8
+        44DC607BD121BE308FA81D404C23340288598456003189D00C20EA11DA014435
+        C22280A8455805905C84983B6C7FE8104B694774324AB30B0694BC4F8BCEB5C7
+        69FE2C11E04D047853E314929E509F8E4AF12924DDA02A710D7853F2F3E8F337
+        4003F135F0D544803735AE01E931AB7E1FF86A22C09BB80F781301DE94045CD2
+        F4E09CE65B4A02B6697AB04953C40C1E204F234BF9688B0F18ABC08835E4579A
+        5BACA627B884D5361F04FF4BD33C0108B77AED87CC2D8E0000000049454E44AE
+        426082}
+      PresetItemIconName = ic_description
+      UsePresetIcon = True
+    end
+    object NavTabItem3: TNavTabItem
+      Text = #39029#38754'2'
+      BadgeValue = 0
+      PresetIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        016E494441546843ED985D4AC4301485AB8F8ADB10D14DE9CEDC818ECFE22EDC
+        86887FAF7A2EED80395EE724692699403EF848E1E6364DE726D3761A0C06595C
+        C07BF806BFF7EC077C80366611EC44AFD01B6C9FDA9845266177DE1BA0861B18
+        70B4B42958D99CCD87D5B1720AC6CE9980DD899604D77CBCB4DD322610C10DFC
+        9A0FEBC02B9FE1B8D2B884CFD08BA72A51091C576E3981B7D0EB93A24425705C
+        C95CC34FE8F58D51A21238AEF45853521295C071E57FE496944425705CA9482D
+        29894AE0B83286949292A8048E2B63892DA980EEFF893D76CE18705C19C315EC
+        B684BA5DC45D6FA32925C34A5402C7954CB78F125D3FCCAD291956A21238AE5C
+        5B326C80F752CF9DB8CF9F935466BCD41F143913B07A6E857DD80AC899C0D3D2
+        B6E0716977F27BC57B0BB6D5C7DD17780E259CE86193B00FADEF90FB97D6C6B8
+        83EEC5E76CA307C5D8465BD3FD04BCFAB6BDF6743E6C42D29AF37E8196FB7C11
+        5AEDF35B8B50739F6707834134D3F4033CAEC1E18E51C1540000000049454E44
+        AE426082}
+      PresetItemIconName = ic_video_library
+      UsePresetIcon = True
+    end
+    object NavTabItem4: TNavTabItem
+      Text = #39029#38754'3'
+      BadgeValue = 0
+      PresetIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        0181494441546843EDD74D2B05511CC7F1CBC2C3C2DE4A59499287B5A5B297D7
+        C07B6189587807CA3B2089C4C20EB190B2B1232236F8FEBA67A1FC9BFB70CE9D
+        39F87FEBD3B9A57BE7CCCC993153F33CCFF3BCC44D6113D7780FAEB08109645B
+        3FB6F059E003DAB93E6495267F006BD2967D64B5138D8EBC454B2A8BB4E6AD09
+        36A2E5147D4D748731A6A530B65A1716EB1FAB4D771BEB0837E31251E928C4A6
+        DB644FFD63CBE9BB5117738A2554692976E0368CED7413C6B64BB1037B616CA7
+        DD30569A6E85BA255A1769117D671C59A4C7036B9245D6904DBA93E8F1C09AA8
+        45CBAE1759A59DD099285A4EFA9B8E7C7693FF9EAE8975E89FD45B70815564B3
+        E63DEFAF94E2614E0D6106D318C330063100F58C7BE8D1E11C6738C41D2A4B2F
+        322B88799CD6CBFE3226514A3A630B388535A118279847AA55F1A3511CC3DA78
+        4A471841D2E6A0756C6DB0139E308B24E9C8BFC2DA5027BD20C999D881B58132
+        6C23BA47583F5E860714D6CC15AF1FAAB2C239FA4B7DD5FDFA1DF03CCFF3FE73
+        B5DA17AB7C42F41D47C1F00000000049454E44AE426082}
+      PresetItemIconName = ic_person
+      UsePresetIcon = True
+    end
+    object NavTabItem5: TNavTabItem
+      Text = #39029#38754'4'
+      BadgeValue = 0
+      PresetIcon.PNG = {
+        89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+        87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        00D1494441546843ED993B0EC23010440D3DD740DC9E4F8D3812427C6A980117
+        08AD2C61E28C23E6494F9B269B9DC4719124638CE99A15DCC033BC8FEC15EE20
+        67A882279E60D47C4C39435508DEF9A8A1C22D0C99E51AC165B3781DCAE1720A
+        67290560F29E08679DE73A591C404DCB77E0B3F7D0FD9E7809A97100357F1D80
+        BBC2BB12BC84D438801A07F8814176313F01350EA0C601D44C3E4069FFF577A1
+        31700035A500B75C7B801F77434A010EB9F6C03ED7AFE8E507C7112E61150CC1
+        9F0B1718356F29AFB986D5C31B634C6B527A00DFEFAFF52D8131F50000000049
+        454E44AE426082}
+      PresetItemIconName = ic_poll
+      UsePresetIcon = True
+    end
+  end
+end
